@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+hr{
+    width: 30%;
+    height: 1.5px;
+    margin: 0 auto;
+}
+
+/* BUTTON */
+.btn-1{
+    background-color: #008080;
+    color: white;
+    border: 2px solid #008080;
+    transition: 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: #008080;
+}
+
+/* HEADER */
+
+header {
+    background: url(../img/WALL3.png) no-repeat center center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.header--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    letter-spacing: 1px;
+}
+
+.header--title #header--dynamic{
+    font-size: 2.2rem;
+    /* color: #3BC025; */
+    color: #EF5455;
+    font-weight: bold;
+}
+
+.header--btn button:first-child {
+    margin-right: 1.25rem;
+}
+
+/* ABOUT US */
+
+.about--us--content h3{
+    color: #008080;
+    font-weight: bold;
+}
+
+.about--us--content h2{
+    font-weight: bold;
+    font-size: 2.2rem !important;
+}
+
+.about--us--content p{
+    color: #707070;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.about--us--img img{
+    height: 100%;
+    width: 500px;
+}
+
+/* PLANS */
+.plans {
+    /* background-color: #008080; */
+    background-color: #008080;
+}
+
+.plans--title h3{
+    color: white;
+}
+
+.plans--title h2{
+    font-weight: bold;
+    font-size: 2.2rem !important;
+}
+
+.plans--phase{
+    font-weight: bold;
+    color: white;
+}
+
+.phase-content{
+    font-size: 1.3rem;
+}
+
+.plans--table{
+    display: flex;
+    justify-content: center;
+}
+
+.plans--table tr td {
+    padding: 17px 33px;
+}
+
+
+/* TOKEN */
+.token-card{
+    width: 73%;
+    border: 2px solid #008080;
+    border-radius: 1rem;
+    transition: 0.4s;
+}
+
+.token-card:hover{
+    background-color: #78C6BA;
+}
+
+.token-card:hover h5{
+    color: #EF5455;
+}
+
+.token-card h5{
+    color: #008080;
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.token-card h6{
+    font-size: 1.6rem !important;
+    transition: 0.4s;
+}
+
+.token-card p{
+    color: #707070;
+    font-size: 1rem;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: #FFE428;
+}
+
+.footer-title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #EF5455;
+}
+
+.footer-content ol li {
+    padding-bottom: 13px;
+    color: #008080;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+.footer-img img{
+    height: 700px;
+}
+
+
+@media screen and (max-width: 576px){
+    /* .header--title #header--dynamic{
+        font-size: 25px;
+    } */
+    *{
+        font-size: 17px;
+    }
+
+    .btn-1{
+        font-size: 1rem;
+    }
+
+    header{
+        min-height: auto;
+        background-position: right;
+    }
+
+    .header--content{
+        height: 700px;
+    }
+
+    .header--title #header--dynamic{
+        font-size: 1.6rem;
+    }
+
+    .header--btn button{
+        margin: 7px 0;
+    }
+
+    .about--us--img img{
+        height: 100%;
+        width: 360px;
+    }
+
+    .token-res{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .token-card{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .footer-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
